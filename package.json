@@ -15,7 +15,7 @@
   "homepage": "https://github.com/ricardo17coelho/vue-simple-acl#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ricardo17coelho/vue-simple-acl"
+    "url": "git+https://github.com/ricardo17coelho/vue-simple-acl.git"
   },
   "bugs": {
     "url": "https://github.com/ricardo17coelho/vue-simple-acl/issues"
