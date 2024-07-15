@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/JetBrains/web-types/master/v2-preview/web-types.json",
+  "name": "VueSimpleAclNext",
+  "framework": "vue",
+  "version": "1.0.0",
+  "contributions": {
+    "html": {
+      "attributes": [
+        {
+          "name": "v-role",
+          "description": "v-role",
+          "value": {
+            "kind": "expression",
+            "type": [
+              "string"
+            ]
+          }
+        },
+        {
+          "name": "v-can",
+          "description": "v-can",
+          "value": {
+            "kind": "expression",
+            "type": [
+              "string"
+            ]
+          }
+        },
+        {
+          "name": "v-permission",
+          "description": "v-permission",
+          "value": {
+            "kind": "expression",
+            "type": [
+              "string"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

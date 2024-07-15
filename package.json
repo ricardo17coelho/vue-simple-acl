@@ -1,0 +1,73 @@
+{
+  "name": "@ricardo17coelho/vue-simple-acl",
+  "type": "module",
+  "version": "1.0.1",
+  "description": "A simple unopinionated Vue plugin for managing user roles and permissions, access-control list (ACL) and role-based access control (RBAC).",
+  "author": "Victory Osayi <lavictorybiz@gmail.com>",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Ricardo Coelho",
+      "email": "devel@rmorgado.ch",
+      "url": "https://github.com/ricardo17coelho"
+    }
+  ],
+  "homepage": "https://github.com/ricardo17coelho/vue-simple-acl#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardo17coelho/vue-simple-acl"
+  },
+  "bugs": {
+    "url": "https://github.com/ricardo17coelho/vue-simple-acl/issues"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue2",
+    "vue 2",
+    "vue3",
+    "vue 3",
+    "acl",
+    "rbac",
+    "vue-alc",
+    "vue alc",
+    "vue-simple-alc",
+    "vue simple alc",
+    "vue simple alc next",
+    "Access-Control List",
+    "Role Based Access Control",
+    "javacript",
+    "typescript"
+  ],
+  "main": "./dist/vue-simple-acl-next.umd.cjs",
+  "module": "./dist/vue-simple-acl-next.js",
+  "typings": "types/index.d.ts",
+  "files": [
+    "dist/*",
+    "src/*",
+    "types/*",
+    "web-types.json"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "yarn typecheck && vite build",
+    "serve": "vite preview",
+    "typecheck": "vue-tsc --noEmit --skipLibCheck",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "deploy": "npm publish",
+    "deploy:prerelease": "npm publish --tag next"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.1",
+    "@types/node": "^20.10.5",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "axios": "^1.6.3",
+    "eslint": "8.55.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vue": "^3.3.13",
+    "vue-router": "^4.2.5",
+    "vue-tsc": "^1.8.27"
+  }
+}

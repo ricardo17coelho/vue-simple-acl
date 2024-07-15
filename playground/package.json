@@ -1,0 +1,23 @@
+{
+  "name": "vue-simple-acl-playground",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "yarn typecheck && vite build",
+    "typecheck": "vue-tsc --noEmit --skipLibCheck",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.6.1",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "axios": "^1.6.3",
+    "eslint": "8.55.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vue": "^3.3.13",
+    "vue-router": "^4.2.5",
+    "vue-tsc": "^1.8.25"
+  },
+  "web-types": "./web-types.json"
+}
